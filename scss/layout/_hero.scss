@@ -1,0 +1,17 @@
+.hero {
+  width: 100%;
+  position: relative;
+}
+
+.hero__imagen {
+  width: 100%;
+}
+
+.hero__titulo {
+  position: absolute;
+  bottom: 0;
+  font-size: 50px;
+  color: white;
+  padding: 20px;
+  font-weight: 400;
+}

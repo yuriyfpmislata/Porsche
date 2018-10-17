@@ -1,0 +1,17 @@
+.cabecera {
+  padding: 14px 100px 0 100px;
+}
+
+.cabecera__logo {
+  display: block;
+  height: 75px;
+  margin: 0 auto;
+  background: white;
+}
+
+.cabecera__separador {
+  border-color: rgba(0, 0, 0, 0.1);
+  margin-top: -15px;
+  position: relative;
+  z-index: -1;
+}

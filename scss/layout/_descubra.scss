@@ -1,0 +1,30 @@
+.descubra__contenedor {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 200px;
+  grid-template-areas: 
+    'tequipment manufaktur power kit';
+  padding: 0 100px;
+}
+
+.descubra__imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.descubra__imagen--tequipment {
+  grid-area: tequipment;
+}
+
+.descubra__imagen--manuafaktur {
+  grid-area: manuafaktur;
+}
+
+.descubra__imagen--power {
+  grid-area: power;
+}
+
+.descubra__imagen--kit {
+  grid-area: kit;
+}

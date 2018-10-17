@@ -1,0 +1,22 @@
+.navegacion {
+  padding: 0 100px;
+}
+
+.navegacion__lista {
+  padding-left: 0;
+  width: 25%;
+  float: left;
+  list-style-type: none;
+}
+
+.navegacion__titulo {
+  font-size: 18px;
+  font-weight: 300;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.navegacion__item {
+  font-size: 15px;
+  margin: 25px 0;
+}

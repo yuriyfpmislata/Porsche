@@ -1,0 +1,30 @@
+@import 'abstracts/_tipografia';
+@import 'utils/_clearfix';
+
+@import 
+  'base/_normalize',
+  'base/_reset',
+  'base/_boxSizing';
+
+@import 
+  'layout/_asistente',
+  'layout/_cabecera',
+  'layout/_comunidad',
+  'layout/_configurar',
+  'layout/_descubra',
+  'layout/_hero',
+  'layout/_menu',
+  'layout/_modelos',
+  'layout/_navegacion';
+
+@import 
+  'components/_asistencia',
+  'components/_boton',
+  'components/_configuracion',
+  'components/_modelo',
+  'components/_separador',
+  'components/_seccion';
+
+body {
+  font-family: $fuentePrimaria,
+}
