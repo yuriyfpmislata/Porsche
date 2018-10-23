@@ -1,0 +1,64 @@
+.card {
+  position: relative;
+}
+
+.card--colorido {
+  grid-area: colorido;
+}
+
+.card--bella {
+  grid-area: bella;
+}
+
+.card--amarillo {
+  grid-area: amarillo;
+}
+
+.card--verde {
+  grid-area: verde;
+}
+
+.card--carrera {
+  grid-area: carrera;
+}
+
+.card--ocupa2col {
+  grid-column: 1 / span 2;
+}
+
+.card__imagen {
+  display: block;
+  width: 100%;
+}
+
+.card__imagen--contener {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__titulo {
+  color: $grisClaro;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.card__titulo--tituloDentro {
+  position: absolute;
+  bottom: 0;
+  color: $blanco;
+  text-align: left;
+  padding: 0 0 30px 30px;
+  font-weight: 400;
+}
+
+.card__distintivo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 15px 15px 0;
+  width: 35px;
+  height: 35px;
+}

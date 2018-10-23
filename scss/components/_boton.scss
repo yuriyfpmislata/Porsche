@@ -1,14 +1,16 @@
 .boton {
-  background: #333;
-  color: #fff;
+  display: inline-block;
+  background: $grisOscuro;
+  color: $blanco;
   padding: 15px; 
   border: none;
-  float: right;
-  margin: 20px;
-  margin-right: 100px;
   font-size: 15px;
 }
 
+.boton--derecha {
+  float: right;
+}
+
 .boton:hover {
-  background: #d5001c;
+  background: $rojo;
 }

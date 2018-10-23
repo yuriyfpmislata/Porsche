@@ -1,9 +1,9 @@
 .hero {
-  width: 100%;
   position: relative;
 }
 
 .hero__imagen {
+  display: block;
   width: 100%;
 }
 
@@ -11,7 +11,7 @@
   position: absolute;
   bottom: 0;
   font-size: 50px;
-  color: white;
-  padding: 20px;
+  color: $blanco;
+  padding: 40px;
   font-weight: 400;
 }

@@ -1,6 +1,18 @@
+.seccion {
+  padding: 30px 100px 40px 100px;
+}
+
+.seccion--ancha {
+  padding: 0;
+}
+
 .seccion__titulo {
   text-align: center;
   font-weight: lighter;
-  font-size: 28px;
-  margin: 60px 0 30px 0;
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+
+.seccion__acciones {
+  padding-top: 20px;
 }

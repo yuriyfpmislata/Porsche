@@ -1,5 +1,5 @@
+@import 'abstracts/_variables';
 @import 'abstracts/_tipografia';
-@import 'utils/_clearfix';
 
 @import 
   'base/_normalize',
@@ -7,24 +7,19 @@
   'base/_boxSizing';
 
 @import 
-  'layout/_asistente',
   'layout/_cabecera',
-  'layout/_comunidad',
-  'layout/_configurar',
-  'layout/_descubra',
   'layout/_hero',
   'layout/_menu',
-  'layout/_modelos',
-  'layout/_navegacion';
+  'layout/_navegacion',
+  'layout/_grid';
 
 @import 
-  'components/_asistencia',
   'components/_boton',
-  'components/_configuracion',
-  'components/_modelo',
   'components/_separador',
-  'components/_seccion';
+  'components/_seccion',
+  'components/_flecha',
+  'components/_card';
 
 body {
-  font-family: $fuentePrimaria,
+  font-family: $fuentePrimaria;
 }

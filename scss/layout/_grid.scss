@@ -1,0 +1,29 @@
+.grid {
+  display: grid;
+}
+
+.grid--3col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5col {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--alturaFila275 {
+  grid-template-rows: 275px;
+}
+
+.grid--comunidad {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 185px);
+  grid-template-areas: 
+    'colorido	  colorido  verde 		verde'
+    'colorido	  colorido  verde		  verde'
+    'carrera 	  bella     bella     amarillo'
+    'carrera	  bella     bella     amarillo';
+}
