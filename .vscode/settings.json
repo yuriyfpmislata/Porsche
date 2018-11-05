@@ -3,7 +3,8 @@
     {
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": "/css"
+      "savePath": "/src/css"
     }
-  ]
+  ],
+  "liveServer.settings.root": "/src"
 }
