@@ -15,4 +15,9 @@
 .navegacion__item {
   font-size: 15px;
   margin: 25px 0;
+  cursor: pointer;
+}
+
+.navegacion__item:hover {
+  color: $rojo;
 }

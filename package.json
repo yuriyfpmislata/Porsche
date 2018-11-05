@@ -1,0 +1,13 @@
+{
+  "name": "Porsche",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compilarSass": "bash ./deploy/compilarSass.sh",
+    "watchSass": "bash ./deploy/watchSass.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuriyfpmislata/Porsche.git"
+  }
+}

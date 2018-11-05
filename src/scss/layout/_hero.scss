@@ -14,4 +14,9 @@
   color: $blanco;
   padding: 40px;
   font-weight: 400;
+  cursor: pointer;
+}
+
+.hero__titulo:hover {
+  color: $rojo;
 }

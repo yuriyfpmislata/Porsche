@@ -21,6 +21,11 @@
   font-weight: 300;
   text-align: center;
   padding-top: 10px;
+  cursor: pointer;
+}
+
+.card__titulo:hover {
+  color: $rojo;
 }
 
 .card__titulo--tituloDentro {
