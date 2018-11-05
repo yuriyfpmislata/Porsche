@@ -1,4 +1,7 @@
 .separador {
   border-color: rgba(0, 0, 0, 0.1);
   margin: 60px 100px 20px 100px;
+  @media screen and (max-width: 1300px) {
+    margin: 30px 0 10px 0;
+  }
 }

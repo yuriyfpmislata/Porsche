@@ -1,9 +1,18 @@
 .seccion {
   padding: 30px 100px 40px 100px;
+  @media screen and (max-width: 1300px) {
+    padding: 30px 0 40px 0;
+  }
 }
 
 .seccion--ancha {
   padding: 0;
+}
+
+.seccion--espaciada {
+  @media screen and (max-width: 1300px) {
+    padding: 30px 25px 40px 25px;
+  }
 }
 
 .seccion__titulo {
@@ -11,6 +20,9 @@
   font-weight: lighter;
   font-size: 32px;
   padding-bottom: 30px;
+  @media screen and (max-width: 550px){
+    font-size: 25px;
+  }
 }
 
 .seccion__acciones {

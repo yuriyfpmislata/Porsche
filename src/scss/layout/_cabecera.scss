@@ -1,5 +1,11 @@
 .cabecera {
   padding: 14px 100px 0 100px;
+  @media screen and (max-width: 936px){
+    padding: 14px 10px 0 10px;
+  }
+  @media screen and (max-width: 758px){
+    padding-bottom: 14px;
+  }
 }
 
 .cabecera__logo {
