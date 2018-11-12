@@ -1,17 +1,34 @@
 .boton {
   display: inline-block;
-  background: $grisOscuro;
+  background: $gris;
   color: $blanco;
   padding: 15px; 
   border: none;
   font-size: 15px;
   cursor: pointer;
+  height: 50px;
 }
 
-.boton--derecha {
-  float: right;
+.boton--todoAncho {
+  width: 100%;
+}
+
+.boton--textoIzquierda {
+  text-align: left;
+}
+
+.boton--social {
+  padding: 14px;
+  height: 100%;
+  width: 100%;
 }
 
 .boton:hover {
   background: $rojo;
+}
+
+.boton__icono {
+  display: block;
+  width: 100%;
+  height: 100%;
 }

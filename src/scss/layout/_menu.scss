@@ -1,14 +1,13 @@
 .menu {
   list-style-type: none;
   margin: 0;
-  padding: 20px 0;
-  @media screen and (max-width: 758px){
-    display: none;
-  }
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .menu__item {
-  padding: 0 15px 0 0;
+  padding: 5px 15px;
   display: inline-block;
   cursor: pointer;
 }
@@ -18,6 +17,6 @@
 }
 
 .menu__separador {
-  padding: 0 15px 0 0;
+  padding: 5px 15px;
   display: inline-block;
 }

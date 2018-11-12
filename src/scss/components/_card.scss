@@ -16,11 +16,11 @@
 }
 
 .card__titulo {
-  color: $grisClaro;
-  font-size: 22px;
+  color: $gris;
+  font-size: 24px;
   font-weight: 300;
   text-align: center;
-  padding-top: 10px;
+  padding: 10px 0;
   cursor: pointer;
 }
 
@@ -35,6 +35,13 @@
   text-align: left;
   padding: 0 0 30px 30px;
   font-weight: 400;
+}
+
+.card__titulo--compacto {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  color: $negro;
 }
 
 .card__distintivo {

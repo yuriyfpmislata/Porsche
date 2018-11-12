@@ -9,15 +9,19 @@
   'layout/_cabecera',
   'layout/_hero',
   'layout/_menu',
+  'layout/_seccion',
   'layout/_navegacion',
-  'layout/_grid';
+  'layout/_grid',
+  'layout/_social',
+  'layout/_footer';
 
 @import 
   'components/_boton',
   'components/_separador',
-  'components/_seccion',
-  'components/_flecha',
-  'components/_card';
+  'components/_chevron',
+  'components/_card',
+  'components/_selector',
+  'components/_enlace';
 
 body {
   font-family: $fuentePrimaria;

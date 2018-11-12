@@ -5,6 +5,9 @@
 .hero__imagen {
   display: block;
   width: 100%;
+  // para moviles, evitar que la imagen quede demasiado pequeña
+  min-height: 200px;
+  object-fit: cover;
 }
 
 .hero__titulo {
