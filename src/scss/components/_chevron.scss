@@ -7,3 +7,18 @@
 .chevron--blanco {
   color: $blanco;
 }
+
+.chevron--grande {
+  font-size: 7em;
+  @media screen and (max-width: 758px){
+    font-size: 4em;
+  }
+  @media screen and (max-width: 650px){
+    font-size: 3em;
+  }
+}
+
+.chevron--grande:hover {
+  cursor: pointer;
+  color: $rojo;
+}

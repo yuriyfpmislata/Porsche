@@ -1,5 +1,6 @@
 .hero {
   position: relative;
+  margin-bottom: -19px;
 }
 
 .hero__imagen {
@@ -39,4 +40,14 @@
 
 .hero__titulo:hover {
   color: $rojo;
+}
+
+.hero__chevrones {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
 }

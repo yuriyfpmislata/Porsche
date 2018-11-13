@@ -430,6 +430,7 @@ html {
 
 .hero {
   position: relative;
+  margin-bottom: -19px;
 }
 
 .hero__imagen {
@@ -486,6 +487,21 @@ html {
   color: #d5001c;
 }
 
+.hero__chevrones {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 15px;
+}
+
 .menu {
   list-style-type: none;
   margin: 0;
@@ -513,7 +529,7 @@ html {
 }
 
 .seccion {
-  padding: 60px 100px 40px 100px;
+  padding: 55px 100px 40px 100px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -602,14 +618,7 @@ html {
   .grid--comunidad {
     -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    -ms-grid-rows: (150px)[4];
-        grid-template-rows: repeat(4, 150px);
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .grid--comunidad {
-    grid-gap: 10px;
+    grid-auto-rows: repeat(4, 150px);
   }
 }
 
@@ -816,6 +825,27 @@ html {
 
 .chevron--blanco {
   color: #ffffff;
+}
+
+.chevron--grande {
+  font-size: 7em;
+}
+
+@media screen and (max-width: 758px) {
+  .chevron--grande {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .chevron--grande {
+    font-size: 3em;
+  }
+}
+
+.chevron--grande:hover {
+  cursor: pointer;
+  color: #d5001c;
 }
 
 .card {
