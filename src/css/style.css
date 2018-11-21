@@ -602,7 +602,7 @@ html {
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.grid--alturaFila275 {
+.grid--filaAlta {
   -ms-grid-rows: 275px;
       grid-template-rows: 275px;
 }
@@ -809,7 +809,7 @@ html {
   }
 }
 
-.separador--claro {
+.separador--oscuro {
   background: #494e51;
 }
 
@@ -905,6 +905,7 @@ html {
 }
 
 .selector {
+  color: #ffffff;
   padding: 18px 12px;
   background: #313639;
   height: 100%;
